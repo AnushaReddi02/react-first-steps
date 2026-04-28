@@ -1,4 +1,5 @@
 import './App.css'
+import Product from "./Product"
 
 
 function Title() {
@@ -18,6 +19,11 @@ function App() {
       <Description />
       <Title />
       <Description />
+
+       <Product />
+       <Product />
+       <Product />
+    
   </div>
   )
 }
